@@ -1,0 +1,38 @@
+
+.galeria {
+    display: none;
+
+}
+
+.GridContainer {
+    color: white;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .GridContainer {
+        display: block;
+        justify-content: center;
+    
+    }    
+
+}
+
+.ImagenesGrid {
+    height: 100%;
+    width: 100%;
+    border: map-get($bordes, linea) map-get($bordes, ancho)  map-get($bordes, color) ;
+    transition: all 1.5s;
+}
+
+.ImagenesGrid:hover {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+}

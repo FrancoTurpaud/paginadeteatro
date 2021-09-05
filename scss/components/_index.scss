@@ -1,0 +1,26 @@
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin:10px;
+}
+
+.otros {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+nav
+{
+    form{
+    button{
+        border: map-get($bordes, linea) map-get($bordes, ancho)  map-get($bordes, color) !important;
+    &:hover {
+        background-color: red !important;
+        font-family: 'Kaisei HarunoUmi', cursive !important;
+        color: $ColoresTextos !important;
+    } }
+        }
+}

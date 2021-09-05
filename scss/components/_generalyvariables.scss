@@ -1,0 +1,45 @@
+
+$ColoresTextos: white;
+
+html {
+    font-size: 22px;
+}
+
+@import'https://fonts.googleapis.com/css2?family=Style+Script&display=swap';
+@import'https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap';
+
+.textos {
+    font-family: 'Kaisei HarunoUmi', cursive;
+    color: $ColoresTextos;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+body {
+    background-color: black;
+}
+
+.titulos {
+    font-family: 'Style Script', cursive;
+    @include colorestitulos;
+    word-spacing: 5px;
+    padding-top: 2rem;
+}
+
+.TextoFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.inicio{
+    border-bottom: map-get($bordes, linea) map-get($bordes, ancho)  map-get($bordes, color);
+}
+
+.novedades {
+    background-color: rgba(241, 7, 230, 0.1);
+    width: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}

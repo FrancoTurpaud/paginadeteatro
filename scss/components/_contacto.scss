@@ -1,0 +1,12 @@
+
+
+.Contacto {
+    background-color: black;
+    @extend %margenes;
+    border-bottom: map-get($bordes, linea)  map-get($bordes, color);
+    border-radius: 10px;
+    border-top: map-get($bordes, linea)  map-get($bordes, color);
+    color: var(--ColoresTextos);
+    margin: 80px 0px;
+    z-index: 1500;
+}

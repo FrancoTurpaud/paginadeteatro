@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Encabezados H1 DEFINE fuente solo uno por documento distinto de h2,h3,h4,h5,h6-->
+    <!--p parrafo lorem (*multiplica cantidad) escribe cosas raras-->
+    <!--lista de desordenalda ul , ordenada ol , los items de las listas van con li-->
+    <!-- header , footer , body, div  section diferencian las partes de la pagina-->
+    <!-- nav define una zona navegable-->
+    <!--hipervinculos 3 /tipos relativos-absoltos- internos se llaman con a-->
+<!--  <a href="Link/ a un archivo(con la ruta el galeria.html)/ seccion de archivo #nombredelaseccion(id)"> Referencia como ve el clcik</a>   
+    <!-- para crear el id escribo id = "nombre del id" , esto va despyes del por ejemplo tipo de section-->
+    <!--agregar imagenes img primer "ubicacion" segundo "descripcion"-->
+    comandos que se usan muchas veces
+    <a href="index.html">volver</a>
+<!-- linkea css-->
+    <link rel="stylesheet" href="css/style.css">
+<!-- creo clases para individualizar los textos class="nombre"-->
+<!-- .nombredela clase cambia el color-->
+<!-- o con id="" para linkearlo en el css #nombre-->
+<!-- recordadr abrir con {} las clases se pueden reutilizar lo id no-->
+<!-- ejemplo de cascada #titulos a (aplica atodos los tipos a el color del id titulos)-->
+<!-- , reutiliza propiedades en el css-->
+<!-- googlefonts.com tiene las fuentes para linkear-->
+<!-- copio en head del html lo que dice y lo que dice en css-->
+<!-- poner imagen de fondo background image : url{ubicacion de la imagen} background size amolda la imagen cover estrecho hasta llenar todo
+backgrod-repea:noreapeat background atachment fixed-->
+<!-- carga woff el formato de la fuentes-->
+<!--recordar controls para videos y audios (es un atributo)-->
+<!-- css  mas comentarios 
+/**/ comentario css
+span bloque individualiza un elemento.
+text-transform: uppercase
+font-size:
+text-decoration: underline;
+letter-spacing:
+line-heigt:
+text-align:
+word-spacing:;
+backgrodimag: url('')
+abajo empiezo acomodar
+backgradoudsize: cover;
+bacgroudnreppet: no repeat
+background: contain
+backgraound: fixed;
+font-display: swap; (carga fuente comun y despues la cambia)
+  .header a{ a todos los elementos a del header le aplico}
+ funciona solo cnon # no tambien con los . ? 
+ para aplicar en do lugares
+ #header a, 
+ #footer a{
+     aplica a los a del footer y el header la propiedad deseada
+ }
+
+ mas comentarios clase 4
+ unidades de medidas relativas y absolutas
+ tengo clase :root{donde van las variables
+--nombreVariables: color;
+Ej1.
+color: var(--nombreVariables); asi la carga
+--border-radius:4px;
+}
+em unidad relativa adentro del paquete
+ rem
+ px
+ padding: 0.5rem o px;
+ marging: idem
+width 100%
+ box model
+seudo clases y seudo elementos
+hover
+ejemplos de seudo clases
+.iconos:link {Antes de abrir}
+.iconos:visited{lo visito}
+.iconos:hover{
+    text-decoration:overline
+}
+.iconos:activited{activado}
+seudo clases lo de arriba
+
+ahora los seudos elementos
+aparecen adentro del{} que estoy haciendo
+seudo elemento
+::
+first line
+:hover:: after
+{conten: 'l'}
+-->
+
+
+<!--
+
+span lo hace en linea
+em es en linea
+bloque  todo
+linea parte
+div bloque
+span linea
+margin
+padding
+border
+display box
+border: 2px solid black;
+margin lo mismo que padding
+(empuja mas lejos)
+display block
+display line
+
+
+padding 20px 4px vertical horizontal
+padding 20px arriba 20 px derecha....
+
+position: 
+position relative en relacion a su ubicacion
+ahora abilita 4 lados.
+position absolute: de la pagina
+position sticky
+position fixed;(icono de whatsapp)
+bootom 0;
+right 0;
+z index:(efecto 3d)
+
+clase 6 flex box
+contenedor grande
+display: flex; al contenedor
+para separar elementos 
+displey flex
+justify content center
+justify content space around
+aline items center
+
+poner imagen al otra
+section class photo containter
+div photo{div photo item
+div
+div
+}
+
+ahora en css
+display: flex
+justify:center
+al siguiente nive
+with:900px
+display: flex;
+propiedad para ir abajo
+flex-wrap:wrap;
+mediaquery
+propiedad para cambiar tamaño 
+en flex
+como hacer responsive
+@mediaquarys que pase cosas distintas segund la pantalla
+@media only screen and (max-widht:400px)
+
+clase 8
+transformacion y transicion
+.clase:hover{
+    transform (la transicion va en la clase normal)
+}
+transition-properity: en donde(all);
+transition-duration:2s;
+o transition: all 2s;
+* (para todos)
+
+curva de aceleracion 
+
+
+clase 9 bootstrap
+algunos utiles 
+recordar llamar arriba uno y abajo 2
+text-center clase de centreo
+despues de lo que active
+!importan; en vez de cerrar con ;
+-->
+
+
+
+
+<!--    <section>
+        <p class="textos">elementos interactivos de prueba, corazones al azar</p>
+        <iframe src="https://scratch.mit.edu/projects/129273825/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+        <a href="index.html">volver</a>
+     </section>-->
+
+
+    <!-- Esta seccion se deja como comentarios ya que estoy hariguando como traer una foto random de un banco 
+      de datos
+    <section>
+        <img class ="imagenes" src="Imagenes/logo.jpg" alt="imagen random"> 
+        <p class="textos">frase random Oye a los hombres sabios, pero hazlo solo con un oído...
+             Deja que el otro esté siempre preparado para recibir los dulces acentos de la voz de tu Amigo celestial.</p>
+    </section>
+    -->
+
+    /* $Colortitulos: white;
+$colores:
+red,
+yellow,
+blue;
+/* llamo com $ColorTitulos 
+llamo a la variables nth($colores,2)*/
+
+/*css general*/
+</body>
+</html>

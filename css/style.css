@@ -1,0 +1,215 @@
+@import 'https://fonts.googleapis.com/css2?family=Style+Script&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap';
+.Contacto {
+  padding-top: 20px;
+  padding-top: 20px;
+}
+
+html {
+  font-size: 22px;
+}
+
+.textos {
+  font-family: "Kaisei HarunoUmi", cursive;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+body {
+  background-color: black;
+}
+
+.titulos {
+  font-family: "Style Script", cursive;
+  color: red;
+  font-size: 2rem;
+  word-spacing: 5px;
+  padding-top: 2rem;
+}
+
+.TextoFlex {
+  display: flex;
+  justify-content: center;
+}
+
+.inicio {
+  border-bottom: solid 2px red;
+}
+
+.novedades {
+  background-color: rgba(241, 7, 230, 0.1);
+  width: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.Contacto {
+  background-color: black;
+  border-bottom: solid red;
+  border-radius: 10px;
+  border-top: solid red;
+  color: var(--ColoresTextos);
+  margin: 80px 0px;
+  z-index: 1500;
+}
+
+.carta {
+  display: flex;
+  justify-content: center !important;
+}
+
+.card {
+  border: solid 2px red;
+  padding: 0.5rem;
+  background-color: black !important;
+}
+
+.card-body {
+  background-color: black !important;
+}
+
+.card-title {
+  color: red !important;
+}
+
+.card-text {
+  color: white !important;
+}
+
+.galeria {
+  display: none;
+}
+
+.GridContainer {
+  color: white;
+  display: grid;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .GridContainer {
+    display: block;
+    justify-content: center;
+  }
+}
+.ImagenesGrid {
+  height: 100%;
+  width: 100%;
+  border: solid 2px red;
+  transition: all 1.5s;
+}
+
+.ImagenesGrid:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.otros {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+nav form button {
+  border: solid 2px red !important;
+}
+nav form button:hover {
+  background-color: red !important;
+  font-family: "Kaisei HarunoUmi", cursive !important;
+  color: white !important;
+}
+
+.VideosContainer {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+}
+
+.TextosVideo {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.videos {
+  text-align: center;
+}
+
+footer {
+  height: auto;
+  width: auto;
+  padding-top: 10px;
+  color: #fff;
+  margin: 20px 0px;
+  border-top: solid 4px red;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 5px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+  margin: 0 5px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: red;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 50vw;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
