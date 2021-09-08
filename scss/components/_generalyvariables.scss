@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 $ColoresTextos: white;
 
 html {
@@ -15,7 +17,9 @@ html {
     padding-bottom: 2rem;
 
 }
-
+.principal {
+    font-size: 0.5rem !important;
+}
 
 body {
     background-color: black;
@@ -42,4 +46,18 @@ body {
     width: auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.imagen
+{
+    width: 500;
+    height: 350;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .imagen {
+    display: none;
+    }    
+
 }

@@ -5,6 +5,10 @@
   padding-top: 20px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 22px;
 }
@@ -14,6 +18,10 @@ html {
   color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.principal {
+  font-size: 0.5rem !important;
 }
 
 body {
@@ -44,6 +52,12 @@ body {
   margin-bottom: 4rem;
 }
 
+.imagen {
+  width: 500;
+  height: 350;
+}
+
+
 .Contacto {
   background-color: black;
   border-bottom: solid red;
@@ -61,7 +75,6 @@ body {
 
 .card {
   border: solid 2px red;
-  padding: 0.5rem;
   background-color: black !important;
 }
 
@@ -90,7 +103,7 @@ body {
   justify-content: center;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 900px) {
   .GridContainer {
     display: block;
     justify-content: center;
@@ -113,7 +126,7 @@ body {
 .banner {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  width: auto;
 }
 
 .otros {
@@ -151,7 +164,7 @@ nav form button:hover {
 
 footer {
   height: auto;
-  width: auto;
+  max-width: auto;
   padding-top: 10px;
   color: #fff;
   margin: 20px 0px;
@@ -210,6 +223,10 @@ footer {
   background: #000;
   width: 50vw;
   text-align: center;
+}
+
+.mapa {
+  max-width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

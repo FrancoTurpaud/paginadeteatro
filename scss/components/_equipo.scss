@@ -6,7 +6,6 @@
 
 .card{
     border: map-get($bordes, linea) map-get($bordes, ancho)  map-get($bordes, color); 
-    padding: 0.5rem;
     background-color: black !important;
 }
 .card-body{
