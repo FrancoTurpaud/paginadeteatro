@@ -57,7 +57,15 @@ body {
   height: 350;
 }
 
+@media only screen and (max-width: 900px) {
+  .imagen {
+    display: none;
+  }
 
+  .body {
+    overflow-x: hidden;
+  }
+}
 .Contacto {
   background-color: black;
   border-bottom: solid red;
@@ -126,6 +134,7 @@ body {
 .banner {
   display: flex;
   justify-content: center;
+  margin: auto;
   width: auto;
 }
 
@@ -162,9 +171,14 @@ nav form button:hover {
   text-align: center;
 }
 
+@media only screen and (max-width: 900px) {
+  .videoo {
+    min-width: 100%;
+  }
+}
 footer {
   height: auto;
-  max-width: auto;
+  width: auto;
   padding-top: 10px;
   color: #fff;
   margin: 20px 0px;
@@ -223,10 +237,6 @@ footer {
   background: #000;
   width: 50vw;
   text-align: center;
-}
-
-.mapa {
-  max-width: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
