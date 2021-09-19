@@ -168,14 +168,10 @@ nav form button:hover {
 }
 
 .videos {
+  justify-content: center;
   text-align: center;
 }
 
-@media only screen and (max-width: 900px) {
-  .videoo {
-    min-width: 100%;
-  }
-}
 footer {
   height: auto;
   width: auto;
