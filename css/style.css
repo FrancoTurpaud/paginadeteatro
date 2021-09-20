@@ -99,26 +99,18 @@ body {
   display: flex;
   justify-content: center !important;
 }
-
-.card {
+.carta .card {
   border: solid 2px red;
   background-color: black !important;
 }
-
-.card-body {
+.carta .card .card-body {
   background-color: black !important;
 }
-
-.card-title {
+.carta .card .card-body .card-title {
   color: red !important;
 }
-
-.card-text {
+.carta .card .card-body .card-text {
   color: white !important;
-}
-
-.galeria {
-  display: none;
 }
 
 .GridContainer {
@@ -129,6 +121,18 @@ body {
   grid-gap: 10px;
   justify-content: center;
 }
+.GridContainer .ImagenesGrid {
+  height: 100%;
+  width: 100%;
+  border: solid 2px red;
+  transition: all 1.5s;
+}
+.GridContainer .ImagenesGrid:hover {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+}
 
 @media only screen and (max-width: 900px) {
   .GridContainer {
@@ -136,20 +140,6 @@ body {
     justify-content: center;
   }
 }
-.ImagenesGrid {
-  height: 100%;
-  width: 100%;
-  border: solid 2px red;
-  transition: all 1.5s;
-}
-
-.ImagenesGrid:hover {
-  transform: scale(1.4);
-  -webkit-transform: scale(1.4);
-  -o-transform: scale(1.4);
-  -moz-transform: scale(1.4);
-}
-
 .banner {
   display: flex;
   justify-content: center;
@@ -180,17 +170,6 @@ nav form button:hover {
   margin: 40px 0px;
 }
 
-.TextosVideo {
-  display: flex;
-  justify-content: center;
-  color: white;
-}
-
-.videos {
-  justify-content: center;
-  text-align: center;
-}
-
 footer {
   height: auto;
   width: auto;
@@ -199,59 +178,45 @@ footer {
   margin: 20px 0px;
   border-top: solid 4px red;
 }
-
-.footer-content {
+footer .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
 }
-
-.footer-content h3 {
+footer .footer-content h3 {
   font-size: 1.8rem;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
 }
-
-.footer-content p {
+footer .footer-content p {
   max-width: 500px;
   margin: 5px auto;
   line-height: 28px;
   font-size: 14px;
 }
-
-.socials {
+footer .footer-content .socials {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
 }
-
-.socials li {
+footer .footer-content .socials li {
   margin: 0 5px;
 }
-
-.socials a {
+footer .footer-content .socials a {
   text-decoration: none;
   color: #fff;
 }
-
-.socials a i {
+footer .footer-content .socials a i {
   font-size: 1.1rem;
   transition: color 0.4s ease;
 }
-
-.socials a:hover i {
+footer .footer-content .socials a i:hover {
   color: red;
-}
-
-.footer-bottom {
-  background: #000;
-  width: 50vw;
-  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
